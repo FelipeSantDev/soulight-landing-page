@@ -1,0 +1,35 @@
+@media all and (max-width: 30.625em) {
+  .hero__container {
+    transform: translateY(-80%) translateX(3rem);
+  }
+
+  .portfolio,
+  .sobre,
+  .cta {
+    padding: 7.63rem 4.88rem;
+  }
+
+  .portfolio__imagens {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .portfolio__titulo {
+    font-size: 2.3rem;
+  }
+
+  .portfolio__subtitulo {
+    font-size: 1.6rem;
+  }
+
+  .portfolio__botao {
+    font-size: 1.6rem;
+  }
+
+  .servicos__titulo {
+    font-size: 2.3rem;
+  }
+
+  .servicos__subtitulo {
+    font-size: 1.6rem;
+  }
+}

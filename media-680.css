@@ -1,0 +1,36 @@
+@media all and (max-width: 46.875em) {
+  .hero {
+    background-image: url(imagens/hero-mobile.webp);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hero__container {
+    display: flex;
+    flex-flow: column;
+    width: 27rem;
+    transform: translateY(-80%);
+  }
+
+  .hero__tag {
+    font-size: 1.11rem;
+    width: 25rem;
+  }
+
+  .hero__titulo {
+    font-size: 2.3rem;
+  }
+
+  .hero__subtitulo {
+    font-size: 1.6rem;
+  }
+
+  .hero__botao {
+    font-size: 1.11rem;
+  }
+
+  .servicos__cards {
+    flex-flow: column;
+  }
+}
